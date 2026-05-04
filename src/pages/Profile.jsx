@@ -94,12 +94,12 @@ export default function Profile({ user }) {
            <div className="flex items-center gap-6">
               <div className="p-4 bg-white/10 rounded-2xl"><Settings size={32} /></div>
               <div>
-                 <h4 className="font-bold text-xl uppercase italic">Account  Setting</h4>
+                 <h4 className="font-bold text-xl uppercase italic">Accounts  Setting</h4>
                  <p className="text-white/50 text-sm">Manage your security and preferences.</p>
               </div>
            </div>
            <Link to="/update-profile" className="px-8 py-4 bg-white text-neutral rounded-2xl font-bold hover:scale-105 active:scale-95 transition-all">
-              Update Profile
+              Update Profile 
            </Link>
         </div>
       </div>
