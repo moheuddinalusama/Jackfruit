@@ -72,7 +72,7 @@ export default function Login({ login, user }) {
                 className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
                 placeholder="summer@suncart.com"
               />
-            </div>
+            </div> 
           </div>
 
           <div className="space-y-2">

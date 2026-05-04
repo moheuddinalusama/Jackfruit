@@ -97,7 +97,7 @@ export default function Profile({ user }) {
                  <h4 className="font-bold text-xl uppercase italic">Accounts  Setting</h4>
                  <p className="text-white/50 text-sm">Manage your security and preferences.</p>
               </div>  
-           </div>
+           </div> 
            <Link to="/update-profile" className="px-8 py-4 bg-white text-neutral rounded-2xl font-bold hover:scale-105 active:scale-95 transition-all">
               Update Profile 
            </Link>

@@ -98,7 +98,7 @@ export default function Products() {
                 viewport={{ once: true }}
                 className="group flex flex-col"
               >
-                {/* Product Image Card */}
+               
                 <Link to={`/products/${product.id}`} className="relative aspect-[3/4] rounded-md overflow-hidden bg-[#e3f9e1] mb-10 border border-neutral/5 shadow-sm group-hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] transition-all duration-1000 ease-out block">
                   <img 
                     src={product.image} 
@@ -106,15 +106,13 @@ export default function Products() {
                     alt={product.name}
                   />
                   
-                  {/* Rating Badge */}
-                  <div className="absolute top-10 left-10">
+                         <div className="absolute top-10 left-10">
                     <div className="px-5 py-2.5 glass rounded-2xl flex items-center gap-2 font-black text-[10px] text-neutral uppercase tracking-widest shadow-xl">
                       <Star size={12} className="text-primary fill-current" />
                       {product.rating}
                     </div>
                   </div>
 
-                  {/* Hover Button */}
                   <div className="absolute bottom-8 left-8 right-8 translate-y-[250%] group-hover:translate-y-0 transition-transform duration-700 ease-in-out">
                      <div className="w-full py-6 bg-white text-neutral rounded-[2.5rem] font-black text-[10px] uppercase tracking-[0.2em] flex items-center justify-center gap-3 hover:bg-neutral hover:text-white transition-all shadow-2xl border border-neutral/5">
                         View Details <ArrowRight size={14} />
@@ -122,7 +120,7 @@ export default function Products() {
                   </div>
                 </Link>
 
-                {/* Product Info */}
+             
                 <div className="px-8">
                   <div className="flex justify-between items-center mb-4">
                     <span className="text-[10px] font-black uppercase tracking-[0.5em] text-neutral/20">{product.brand}</span>
