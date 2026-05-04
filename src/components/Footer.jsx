@@ -67,6 +67,7 @@ export default function Footer() {
       </div>
       <div className="container mx-auto px-6 mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
         <p>© 2026 Jackfruit Express Store. All rights reserved.</p>
+        <p>Developer Moheuddin alusama</p>
         <div className="flex gap-6">
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Terms of Use</a>
