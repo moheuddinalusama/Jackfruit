@@ -12,7 +12,8 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react(), tailwindcss()],
-    define: {
+    define: { 
+    
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
     resolve: {
@@ -21,15 +22,11 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-     
       chunkSizeWarningLimit: 1000,
-    
-      minify: 'terser',
-      terserOptions: {
+      minify: 'terser', // 
         compress: {
-          drop_console: true,
-          drop_debugger: true,
-        },
+          drop_console: true,   
+          drop_debugger: true,  
       },
     },
     server: {
@@ -39,7 +36,6 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/api': {
-         
           target: 'http://localhost:3000',
           changeOrigin: true,
           secure: false,
