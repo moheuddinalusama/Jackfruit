@@ -20,20 +20,31 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    build: {
+     
+      chunkSizeWarningLimit: 1000,
+    
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        },
+      },
+    },
     server: {
       hmr: true, 
       watch: {
         usePolling: true,
       },
-  
       proxy: {
         '/api': {
+         
           target: 'http://localhost:3000',
           changeOrigin: true,
           secure: false,
         },
       },
-     
     },
   };
 });
