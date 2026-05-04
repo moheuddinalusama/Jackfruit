@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #FF8C00;
+  --color-secondary: #FF1493;
+  --color-accent: #00CED1;
+  --color-neutral: #1a1a1a;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FDFCFB] text-neutral font-sans selection:bg-primary/30 selection:text-primary;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .glass-dark {
+    @apply bg-neutral/80 backdrop-blur-lg border border-white/10 shadow-2xl;
+  }
+
+  .btn-primary {
+    @apply px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-xs transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer shadow-lg hover:shadow-2xl flex items-center justify-center gap-3 bg-primary text-white hover:bg-primary/90 shadow-[0_0_50px_-12px_rgba(255,140,0,0.5)];
+  }
+
+  .btn-neutral {
+    @apply px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-xs transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer shadow-lg hover:shadow-2xl flex items-center justify-center gap-3 bg-neutral text-white hover:bg-neutral/90;
+  }
+
+  .btn-outline {
+    @apply px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-xs transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer shadow-lg hover:shadow-2xl flex items-center justify-center gap-3 bg-transparent border-2 border-neutral/10 text-neutral hover:bg-neutral/5;
+  }
+  
+  .tropical-gradient {
+    @apply bg-gradient-to-br from-[#FF8C00] via-[#FF1493] to-[#7B2FF7];
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}

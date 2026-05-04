@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "name": "Fresh Premium Jackfruit",
+    "brand": "SunCart Orchard",
+    "price": 25.99,
+    "rating": 4.9,
+    "stock": 35,
+    "description": "Whole, naturally ripened premium jackfruit. Sweet, aromatic, and directly harvested from our organic orchard.",
+    "image": "https://cdn.pixabay.com/photo/2020/07/07/15/23/jackfruit-5381831_1280.jpg",
+    "category": "Fresh Fruits"
+  },
+  {
+    "id": "2",
+    "name": "Dehydrated Jackfruit Snacks",
+    "brand": "HealthyBites",
+    "price": 12.50,
+    "rating": 4.7,
+    "stock": 50,
+    "description": "Crispy and naturally sweet dried jackfruit slices. A perfect healthy and chewy tropical snack with no added sugar.",
+    "image": "https://cdn.pixabay.com/photo/2016/09/20/07/49/dried-fruit-1681926_1280.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": "3",
+    "name": "Jackfruit Seed Powder",
+    "brand": "NutriCore",
+    "price": 18.00,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Finely ground organic jackfruit seed powder. Rich in protein and fiber, a great gluten-free supplement for baking.",
+    "image": "https://cdn.pixabay.com/photo/2017/08/10/11/49/powder-2619894_1280.jpg",
+    "category": "Supplements"
+  },
+  {
+    "id": "4",
+    "name": "Green Jackfruit (for Cooking)",
+    "brand": "SunCart Orchard",
+    "price": 15.00,
+    "rating": 4.5,
+    "stock": 40,
+    "description": "Unripe green jackfruit chunks. The ultimate vegan meat alternative, perfect for savory curries, stews, and BBQ 'pulled pork'.",
+    "image": "https://images.pexels.com/photos/6272367/pexels-photo-6272367.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Cooking Ingredients"
+  },
+  {
+    "id": "5",
+    "name": "Jackfruit Pulp Juice",
+    "brand": "SummerFit Fresh",
+    "price": 9.99,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "100% pure jackfruit pulp juice. Refreshing, tropical, and packed with Vitamin C. No artificial flavors.",
+    "image": "https://cdn.pixabay.com/photo/2018/06/26/12/37/tropical-fruit-3498864_1280.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": "6",
+    "name": "Jackfruit Leaf Tea Bags",
+    "brand": "AquaSkin Organics",
+    "price": 22.00,
+    "rating": 4.3,
+    "stock": 25,
+    "description": "Organic dried jackfruit leaf tea bags. Traditionally used for its potential blood sugar regulation benefits.",
+    "image": "https://cdn.pixabay.com/photo/2015/07/02/10/40/tea-828813_1280.jpg",
+    "category": "Beverages"
+  },
+  {
+    "id": "7",
+    "name": "Peeled Jackfruit Pods (Ready to Eat)",
+    "brand": "SunCart Fresh",
+    "price": 19.50,
+    "rating": 4.9,
+    "stock": 60,
+    "description": "Mess-free, expertly peeled sweet jackfruit pods. Packed in a sealed container for maximum freshness and convenience.",
+    "image": "https://cdn.pixabay.com/photo/2016/09/16/08/04/tropical-1673322_1280.jpg",
+    "category": "Fresh Fruits"
+  },
+  {
+    "id": "8",
+    "name": "Mango-Jackfruit Blend Jam",
+    "brand": "HealthyBites",
+    "price": 14.00,
+    "rating": 4.7,
+    "stock": 45,
+    "description": "A delightful blend of sweet mango and aromatic jackfruit pulp. Perfect spread for toast and pancakes.",
+    "image": "https://cdn.pixabay.com/photo/2017/08/21/11/35/jam-2665042_1280.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": "9",
+    "name": "Heavy-Duty Jackfruit Opener Knife",
+    "brand": "KitchenPro",
+    "price": 32.00,
+    "rating": 4.4,
+    "stock": 15,
+    "description": "Specially designed sharp and sturdy knife with a comfortable grip for easily cutting through the tough skin of a whole jackfruit.",
+    "image": "https://cdn.pixabay.com/photo/2015/07/28/22/01/knife-865096_1280.jpg",
+    "category": "Kitchen Tools"
+  },
+  {
+    "id": "10",
+    "name": "SunCart Insulated Bag (Small)",
+    "brand": "SunCart Official",
+    "price": 11.99,
+    "rating": 4.6,
+    "stock": 80,
+    "description": "Keep your peeled jackfruit pods cool for up to 4 hours. Lightweight, leak-proof, and designed for convenience.",
+    "image": "https://cdn.pixabay.com/photo/2021/01/21/15/54/lunch-bag-5937691_1280.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": "11",
+    "name": "SunCart Reusable Eco-Tote Bag (Large)",
+    "brand": "SunCart Official",
+    "price": 8.50,
+    "rating": 4.8,
+    "stock": 150,
+    "description": "Extra-large and heavy-duty canvas tote bag. Ideal for carrying a whole heavy jackfruit or large fresh food orders.",
+    "image": "https://cdn.pixabay.com/photo/2018/06/17/10/37/eco-bag-3480302_1280.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": "12",
+    "name": "Non-Stick Preparation Gloves",
+    "brand": "HygieneMax",
+    "price": 6.99,
+    "rating": 4.2,
+    "stock": 120,
+    "description": "Textured nitrile gloves for peeling jackfruit. Effectively blocks the sticky 'sap' (latex) from sticking to your hands.",
+    "image": "https://cdn.pixabay.com/photo/2019/01/31/13/26/gloves-3966779_1280.jpg",
+    "category": "Kitchen Tools"
+  }
+]
