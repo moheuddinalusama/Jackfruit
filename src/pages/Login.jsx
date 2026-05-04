@@ -55,7 +55,7 @@ export default function Login({ login, user }) {
         className="w-full max-w-md bg-white p-10 rounded-[2.5rem] shadow-2xl border border-neutral/5"
       >
         <div className="text-center mb-10">
-          <p className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-4">Secure Access</p>
+          
           <h2 className="text-4xl font-display font-black mb-3 uppercase italic leading-none">Welcome Back</h2>
           <p className="text-neutral/40 text-sm font-medium">Re-enter the world of golden sunshine.</p>
         </div>
@@ -69,7 +69,7 @@ export default function Login({ login, user }) {
                 type="email" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-transparent rounded-2xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
+                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
                 placeholder="summer@suncart.com"
               />
             </div>
@@ -83,7 +83,7 @@ export default function Login({ login, user }) {
                 type="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-transparent rounded-2xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
+                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
                 placeholder="••••••••"
               />
             </div>

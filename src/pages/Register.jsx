@@ -51,8 +51,8 @@ export default function Register({ login, user }) {
         className="w-full max-w-md bg-white p-10 rounded-[2.5rem] shadow-2xl border border-neutral/5"
       >
         <div className="text-center mb-10">
-          <p className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-4">New Adventure</p>
-          <h2 className="text-4xl font-display font-black mb-3 uppercase italic leading-none">Join the Club</h2>
+      
+          <h2 className="text-4xl font-display font-black mb-4 uppercase italic leading-none">Join the Club</h2>
           <p className="text-neutral/40 text-sm font-medium">Your summer adventure begins here.</p>
         </div>
 
@@ -65,8 +65,8 @@ export default function Register({ login, user }) {
                 type="text" 
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-transparent rounded-2xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
-                placeholder="John Doe"
+                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
+                placeholder="Md arman"
               />
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Register({ login, user }) {
                 type="email" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-transparent rounded-2xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
+                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
                 placeholder="summer@Jackfruit .com"
               />
             </div>
@@ -93,7 +93,7 @@ export default function Register({ login, user }) {
                 type="text" 
                 value={photoUrl}
                 onChange={(e) => setPhotoUrl(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-transparent rounded-2xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
+                className="w-full pl-12 pr-4 py-4 bg-neutral/5 border border-gray-300 rounded-xl outline-none focus:bg-white focus:border-primary/20 transition-all font-medium text-sm"
                 placeholder="https://..."
               />
             </div>
