@@ -83,8 +83,8 @@ export default function Navbar({ user, logout }) {
                 3
               </span>
             </button>
-            
-            {user ? (
+              {/* d */}
+             {user ? (
                <div className="flex items-center gap-4">
                   <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="flex items-center gap-3 pr-2 cursor-pointer">
