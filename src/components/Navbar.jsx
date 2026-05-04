@@ -66,7 +66,7 @@ export default function Navbar({ user, logout }) {
                 to={link.path}
                 className={({ isActive }) =>
                   cn(
-                    "text-[10px] font-black uppercase tracking-[0.3em] transition-colors hover:text-primary",
+                    "text-[13px] font-black uppercase tracking-[0.3em] transition-colors hover:text-primary",
                     isActive ? "text-primary" : "text-neutral/50"
                   )
                 }
@@ -103,10 +103,10 @@ export default function Navbar({ user, logout }) {
                </div>
             ) : (
               <div className="flex items-center gap-4">
-                 <Link to="/login" className="text-[10px] font-black uppercase tracking-[0.3em] text-neutral hover:text-primary transition-colors">
+                 <Link to="/login" className="text-[13px] font-black uppercase tracking-[0.3em] text-neutral hover:text-primary transition-colors">
                     Login
                  </Link>
-                 <Link to="/register" className="h-12 px-8 bg-neutral text-white rounded-xl text-[10px] font-black uppercase tracking-[0.3em] flex items-center justify-center hover:bg-neutral/90 transition-all shadow-xl shadow-neutral/10">
+                 <Link to="/register" className="h-12 px-6 bg-neutral text-white rounded-xl text-[13px] font-black uppercase tracking-[0.3em] flex items-center justify-center hover:bg-neutral/90 transition-all shadow-xl shadow-neutral/10">
                     Join
                  </Link>
               </div>
@@ -138,7 +138,7 @@ export default function Navbar({ user, logout }) {
                   key={link.name}
                   to={link.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-3xl font-display font-black uppercase italic text-neutral/30 hover:text-primary transition-all"
+                  className="text-xl font-display font-black uppercase  text-neutral hover:text-primary transition-all"
                 >
                   {link.name}
                 </Link>
@@ -147,21 +147,21 @@ export default function Navbar({ user, logout }) {
                  {user ? (
                     <>
                        <div className="flex items-center gap-4 mb-2">
-                          <img src={user.image} className="w-14 h-14 rounded-2xl object-cover" alt="User" />
+                          <img src={user.image} className="w-34 h-34 rounded-2xl object-cover" alt="User" />
                           <div>
-                            <p className="text-lg font-black uppercase italic">{user.name}</p>
-                            <p className="text-xs text-neutral/40">{user.email}</p>
+                            <p className="text-6xl font-black uppercase italic">{user.name}</p>
+                            <p className="text-2xl text-neutral/40">{user.email}</p>
                           </div>
                        </div>
-                       <Link to="/my-profile" className="w-full py-5 bg-neutral/5 text-center rounded-2xl text-[10px] font-black uppercase tracking-widest" onClick={() => setIsMobileMenuOpen(false)}>My Dashboard</Link>
-                       <button onClick={() => { logout(); setIsMobileMenuOpen(false); }} className="w-full py-5 text-red-500 font-black uppercase text-[10px] tracking-widest flex items-center justify-center gap-2">
+                       <Link to="/my-profile" className="w-full py-5 bg-neutral/5 text-center rounded-2xl text-[19px] font-black uppercase tracking-widest" onClick={() => setIsMobileMenuOpen(false)}>My Dashboard</Link>
+                       <button onClick={() => { logout(); setIsMobileMenuOpen(false); }} className="w-full py-5 text-red-500 font-black uppercase text-[25px] tracking-widest flex items-center justify-center gap-2">
                          <LogOut size={16}/> Logout
                        </button>
                     </>
                  ) : (
                     <div className="flex flex-col gap-4">
-                      <Link to="/login" onClick={() => setIsMobileMenuOpen(false)} className="w-full py-5 text-center rounded-2xl bg-neutral/5 text-neutral font-black uppercase text-[10px] tracking-widest">Login</Link>
-                      <Link to="/register" onClick={() => setIsMobileMenuOpen(false)} className="w-full py-5 text-center rounded-2xl bg-primary text-white font-black uppercase text-[10px] tracking-widest shadow-xl">Join SunCart</Link>
+                      <Link to="/login" onClick={() => setIsMobileMenuOpen(false)} className="w-full py-5 text-center rounded-2xl bg-neutral/5 text-neutral font-black uppercase text-[19px] tracking-widest">Login</Link>
+                      <Link to="/register" onClick={() => setIsMobileMenuOpen(false)} className="w-full py-5 text-center rounded-2xl bg-primary text-white font-black uppercase text-[19px] tracking-widest shadow-xl">Join Jackfruit</Link>
                     </div>
                  )}
               </div>
