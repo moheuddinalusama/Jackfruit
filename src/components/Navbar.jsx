@@ -50,7 +50,7 @@ export default function Navbar({ user, logout }) {
              <Palmtree size={24} />
           </div>
           <span className="text-2xl font-display font-black tracking-tighter uppercase italic leading-none">
-            Jack<span className="text-primary italic">fruit </span>
+            Jack<span className="text-primary italic">fruit</span>
           </span>
         </Link>
 
