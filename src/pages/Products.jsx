@@ -129,7 +129,7 @@ export default function Products() {
                   <h3 className="text-3xl font-display font-bold group-hover:text-primary transition-colors leading-[0.9] mb-4 uppercase italic">
                     {product.name}
                   </h3>
-              
+              {/* piykdi */}
                   <div className="w-16 h-2 bg-primary/10 rounded-full group-hover:w-full transition-all duration-700" />
                 </div>
               </motion.div>
